@@ -1,0 +1,391 @@
+2025-03-14 03:53:53,586 - INFO - Using device: cuda
+2025-03-14 03:53:53,591 - INFO - Total training samples: 484
+2025-03-14 03:53:54,140 - INFO - Image shape: (240, 240, 155, 4), GT shape: (240, 240, 155), Slice idx: 77
+2025-03-14 03:53:56,429 - INFO - Sample visualization saved to sample_visualization.png
+2025-03-14 03:53:56,431 - INFO - Fold 1/5
+2025-03-14 03:53:56,817 - INFO - No checkpoint found for UNet3D_fold0, starting from scratch.
+2025-03-14 03:54:37,459 - INFO - UNet3D_fold0 - Epoch 1/16, Training Loss: 0.7642
+2025-03-14 03:56:59,475 - INFO - UNet3D_fold0 - Epoch 1, Validation Dice: ET=0.0064, TC=0.0705, WT=0.0960
+2025-03-14 03:56:59,476 - INFO - UNet3D_fold0 - Epoch 1, Current LR: 0.001125
+2025-03-14 03:56:59,501 - INFO - New best model saved with WT Dice: 0.0960
+2025-03-14 03:56:59,570 - INFO - Checkpoint saved at epoch 1 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 03:57:40,049 - INFO - UNet3D_fold0 - Epoch 2/16, Training Loss: 0.6231
+2025-03-14 03:59:55,224 - INFO - UNet3D_fold0 - Epoch 2, Validation Dice: ET=0.1446, TC=0.1627, WT=0.2375
+2025-03-14 03:59:55,225 - INFO - UNet3D_fold0 - Epoch 2, Current LR: 0.001250
+2025-03-14 03:59:55,272 - INFO - New best model saved with WT Dice: 0.2375
+2025-03-14 03:59:55,351 - INFO - Checkpoint saved at epoch 2 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:00:36,104 - INFO - UNet3D_fold0 - Epoch 3/16, Training Loss: 0.5023
+2025-03-14 04:02:44,257 - INFO - UNet3D_fold0 - Epoch 3, Validation Dice: ET=0.3307, TC=0.3523, WT=0.3346
+2025-03-14 04:02:44,258 - INFO - UNet3D_fold0 - Epoch 3, Current LR: 0.001375
+2025-03-14 04:02:44,290 - INFO - New best model saved with WT Dice: 0.3346
+2025-03-14 04:02:44,369 - INFO - Checkpoint saved at epoch 3 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:03:25,586 - INFO - UNet3D_fold0 - Epoch 4/16, Training Loss: 0.4520
+2025-03-14 04:05:34,752 - INFO - UNet3D_fold0 - Epoch 4, Validation Dice: ET=0.3575, TC=0.3646, WT=0.4743
+2025-03-14 04:05:34,752 - INFO - UNet3D_fold0 - Epoch 4, Current LR: 0.001500
+2025-03-14 04:05:34,783 - INFO - New best model saved with WT Dice: 0.4743
+2025-03-14 04:05:34,860 - INFO - Checkpoint saved at epoch 4 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:06:15,693 - INFO - UNet3D_fold0 - Epoch 5/16, Training Loss: 0.4358
+2025-03-14 04:08:28,345 - INFO - UNet3D_fold0 - Epoch 5, Validation Dice: ET=0.4524, TC=0.4295, WT=0.5682
+2025-03-14 04:08:28,345 - INFO - UNet3D_fold0 - Epoch 5, Current LR: 0.001625
+2025-03-14 04:08:28,379 - INFO - New best model saved with WT Dice: 0.5682
+2025-03-14 04:08:28,458 - INFO - Checkpoint saved at epoch 5 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:09:09,039 - INFO - UNet3D_fold0 - Epoch 6/16, Training Loss: 0.4180
+2025-03-14 04:11:12,734 - INFO - UNet3D_fold0 - Epoch 6, Validation Dice: ET=0.4920, TC=0.5028, WT=0.5928
+2025-03-14 04:11:12,735 - INFO - UNet3D_fold0 - Epoch 6, Current LR: 0.001750
+2025-03-14 04:11:12,765 - INFO - New best model saved with WT Dice: 0.5928
+2025-03-14 04:11:12,844 - INFO - Checkpoint saved at epoch 6 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:11:53,524 - INFO - UNet3D_fold0 - Epoch 7/16, Training Loss: 0.3919
+2025-03-14 04:13:58,330 - INFO - UNet3D_fold0 - Epoch 7, Validation Dice: ET=0.4451, TC=0.4042, WT=0.4542
+2025-03-14 04:13:58,330 - INFO - UNet3D_fold0 - Epoch 7, Current LR: 0.001875
+2025-03-14 04:13:58,413 - INFO - Checkpoint saved at epoch 7 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:14:38,884 - INFO - UNet3D_fold0 - Epoch 8/16, Training Loss: 0.3866
+2025-03-14 04:16:45,009 - INFO - UNet3D_fold0 - Epoch 8, Validation Dice: ET=0.4815, TC=0.4397, WT=0.5865
+2025-03-14 04:16:45,010 - INFO - UNet3D_fold0 - Epoch 8, Current LR: 0.002000
+2025-03-14 04:16:45,093 - INFO - Checkpoint saved at epoch 8 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:17:25,313 - INFO - UNet3D_fold0 - Epoch 9/16, Training Loss: 0.3949
+2025-03-14 04:19:36,225 - INFO - UNet3D_fold0 - Epoch 9, Validation Dice: ET=0.3272, TC=0.3114, WT=0.3575
+2025-03-14 04:19:36,226 - INFO - UNet3D_fold0 - Epoch 9, Current LR: 0.002125
+2025-03-14 04:19:36,307 - INFO - Checkpoint saved at epoch 9 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:20:17,203 - INFO - UNet3D_fold0 - Epoch 10/16, Training Loss: 0.3911
+2025-03-14 04:22:28,851 - INFO - UNet3D_fold0 - Epoch 10, Validation Dice: ET=0.3928, TC=0.4255, WT=0.5159
+2025-03-14 04:22:28,852 - INFO - UNet3D_fold0 - Epoch 10, Current LR: 0.002250
+2025-03-14 04:22:28,934 - INFO - Checkpoint saved at epoch 10 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:23:10,007 - INFO - UNet3D_fold0 - Epoch 11/16, Training Loss: 0.3826
+2025-03-14 04:25:20,182 - INFO - UNet3D_fold0 - Epoch 11, Validation Dice: ET=0.5481, TC=0.5048, WT=0.6134
+2025-03-14 04:25:20,183 - INFO - UNet3D_fold0 - Epoch 11, Current LR: 0.002375
+2025-03-14 04:25:20,213 - INFO - New best model saved with WT Dice: 0.6134
+2025-03-14 04:25:20,292 - INFO - Checkpoint saved at epoch 11 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:26:02,522 - INFO - UNet3D_fold0 - Epoch 12/16, Training Loss: 0.3664
+2025-03-14 04:28:20,662 - INFO - UNet3D_fold0 - Epoch 12, Validation Dice: ET=0.4687, TC=0.4666, WT=0.4602
+2025-03-14 04:28:20,663 - INFO - UNet3D_fold0 - Epoch 12, Current LR: 0.002500
+2025-03-14 04:28:20,745 - INFO - Checkpoint saved at epoch 12 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:29:01,394 - INFO - UNet3D_fold0 - Epoch 13/16, Training Loss: 0.3731
+2025-03-14 04:31:14,409 - INFO - UNet3D_fold0 - Epoch 13, Validation Dice: ET=0.3924, TC=0.4149, WT=0.4327
+2025-03-14 04:31:14,409 - INFO - UNet3D_fold0 - Epoch 13, Current LR: 0.002625
+2025-03-14 04:31:14,496 - INFO - Checkpoint saved at epoch 13 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:31:55,986 - INFO - UNet3D_fold0 - Epoch 14/16, Training Loss: 0.3648
+2025-03-14 04:34:04,718 - INFO - UNet3D_fold0 - Epoch 14, Validation Dice: ET=0.4097, TC=0.4212, WT=0.5547
+2025-03-14 04:34:04,718 - INFO - UNet3D_fold0 - Epoch 14, Current LR: 0.002750
+2025-03-14 04:34:04,799 - INFO - Checkpoint saved at epoch 14 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:34:44,799 - INFO - UNet3D_fold0 - Epoch 15/16, Training Loss: 0.3670
+2025-03-14 04:36:46,655 - INFO - UNet3D_fold0 - Epoch 15, Validation Dice: ET=0.4901, TC=0.4930, WT=0.4993
+2025-03-14 04:36:46,656 - INFO - UNet3D_fold0 - Epoch 15, Current LR: 0.002875
+2025-03-14 04:36:46,740 - INFO - Checkpoint saved at epoch 15 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:37:27,343 - INFO - UNet3D_fold0 - Epoch 16/16, Training Loss: 0.3700
+2025-03-14 04:39:28,795 - INFO - UNet3D_fold0 - Epoch 16, Validation Dice: ET=0.5214, TC=0.5069, WT=0.5929
+2025-03-14 04:39:28,795 - INFO - UNet3D_fold0 - Epoch 16, Current LR: 0.003000
+2025-03-14 04:39:28,875 - INFO - Checkpoint saved at epoch 16 to output1/checkpoints/UNet3D_fold0_checkpoint.pth
+2025-03-14 04:39:29,081 - INFO - Loaded best weights for UNet3D_fold0 with WT Dice: 0.6134
+2025-03-14 04:39:59,274 - INFO - Best Validation WT Dice for UNet3D_fold0: 0.6134
+2025-03-14 04:40:02,611 - INFO - Prediction visualization saved to output1/prediction_fold0.png
+2025-03-14 04:40:02,613 - INFO - Fold 2/5
+2025-03-14 04:40:02,654 - INFO - No checkpoint found for UNet3D_fold1, starting from scratch.
+2025-03-14 04:40:41,987 - INFO - UNet3D_fold1 - Epoch 1/16, Training Loss: 0.7648
+2025-03-14 04:43:05,039 - INFO - UNet3D_fold1 - Epoch 1, Validation Dice: ET=0.0861, TC=0.0077, WT=0.0831
+2025-03-14 04:43:05,040 - INFO - UNet3D_fold1 - Epoch 1, Current LR: 0.001125
+2025-03-14 04:43:05,071 - INFO - New best model saved with WT Dice: 0.0831
+2025-03-14 04:43:05,138 - INFO - Checkpoint saved at epoch 1 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:43:43,570 - INFO - UNet3D_fold1 - Epoch 2/16, Training Loss: 0.6165
+2025-03-14 04:46:02,895 - INFO - UNet3D_fold1 - Epoch 2, Validation Dice: ET=0.2072, TC=0.0268, WT=0.1054
+2025-03-14 04:46:02,896 - INFO - UNet3D_fold1 - Epoch 2, Current LR: 0.001250
+2025-03-14 04:46:02,928 - INFO - New best model saved with WT Dice: 0.1054
+2025-03-14 04:46:03,003 - INFO - Checkpoint saved at epoch 2 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:46:42,069 - INFO - UNet3D_fold1 - Epoch 3/16, Training Loss: 0.5323
+2025-03-14 04:48:50,863 - INFO - UNet3D_fold1 - Epoch 3, Validation Dice: ET=0.2166, TC=0.1312, WT=0.2842
+2025-03-14 04:48:50,863 - INFO - UNet3D_fold1 - Epoch 3, Current LR: 0.001375
+2025-03-14 04:48:50,894 - INFO - New best model saved with WT Dice: 0.2842
+2025-03-14 04:48:50,973 - INFO - Checkpoint saved at epoch 3 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:49:29,446 - INFO - UNet3D_fold1 - Epoch 4/16, Training Loss: 0.4864
+2025-03-14 04:51:38,886 - INFO - UNet3D_fold1 - Epoch 4, Validation Dice: ET=0.2791, TC=0.2288, WT=0.3893
+2025-03-14 04:51:38,887 - INFO - UNet3D_fold1 - Epoch 4, Current LR: 0.001500
+2025-03-14 04:51:38,917 - INFO - New best model saved with WT Dice: 0.3893
+2025-03-14 04:51:38,996 - INFO - Checkpoint saved at epoch 4 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:52:17,476 - INFO - UNet3D_fold1 - Epoch 5/16, Training Loss: 0.4382
+2025-03-14 04:54:29,899 - INFO - UNet3D_fold1 - Epoch 5, Validation Dice: ET=0.2970, TC=0.3284, WT=0.3742
+2025-03-14 04:54:29,899 - INFO - UNet3D_fold1 - Epoch 5, Current LR: 0.001625
+2025-03-14 04:54:29,983 - INFO - Checkpoint saved at epoch 5 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:55:08,732 - INFO - UNet3D_fold1 - Epoch 6/16, Training Loss: 0.4231
+2025-03-14 04:57:15,718 - INFO - UNet3D_fold1 - Epoch 6, Validation Dice: ET=0.3342, TC=0.3212, WT=0.4618
+2025-03-14 04:57:15,718 - INFO - UNet3D_fold1 - Epoch 6, Current LR: 0.001750
+2025-03-14 04:57:15,746 - INFO - New best model saved with WT Dice: 0.4618
+2025-03-14 04:57:15,824 - INFO - Checkpoint saved at epoch 6 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 04:57:54,647 - INFO - UNet3D_fold1 - Epoch 7/16, Training Loss: 0.3901
+2025-03-14 05:00:07,695 - INFO - UNet3D_fold1 - Epoch 7, Validation Dice: ET=0.3461, TC=0.2948, WT=0.4380
+2025-03-14 05:00:07,695 - INFO - UNet3D_fold1 - Epoch 7, Current LR: 0.001875
+2025-03-14 05:00:07,915 - INFO - Checkpoint saved at epoch 7 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:00:50,116 - INFO - UNet3D_fold1 - Epoch 8/16, Training Loss: 0.3894
+2025-03-14 05:03:03,727 - INFO - UNet3D_fold1 - Epoch 8, Validation Dice: ET=0.3273, TC=0.3786, WT=0.5214
+2025-03-14 05:03:03,728 - INFO - UNet3D_fold1 - Epoch 8, Current LR: 0.002000
+2025-03-14 05:03:03,756 - INFO - New best model saved with WT Dice: 0.5214
+2025-03-14 05:03:03,834 - INFO - Checkpoint saved at epoch 8 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:03:41,880 - INFO - UNet3D_fold1 - Epoch 9/16, Training Loss: 0.3798
+2025-03-14 05:05:44,614 - INFO - UNet3D_fold1 - Epoch 9, Validation Dice: ET=0.3721, TC=0.3516, WT=0.5054
+2025-03-14 05:05:44,615 - INFO - UNet3D_fold1 - Epoch 9, Current LR: 0.002125
+2025-03-14 05:05:44,698 - INFO - Checkpoint saved at epoch 9 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:06:23,759 - INFO - UNet3D_fold1 - Epoch 10/16, Training Loss: 0.3736
+2025-03-14 05:08:23,540 - INFO - UNet3D_fold1 - Epoch 10, Validation Dice: ET=0.3812, TC=0.3937, WT=0.5302
+2025-03-14 05:08:23,541 - INFO - UNet3D_fold1 - Epoch 10, Current LR: 0.002250
+2025-03-14 05:08:23,570 - INFO - New best model saved with WT Dice: 0.5302
+2025-03-14 05:08:23,648 - INFO - Checkpoint saved at epoch 10 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:09:02,050 - INFO - UNet3D_fold1 - Epoch 11/16, Training Loss: 0.3701
+2025-03-14 05:11:08,912 - INFO - UNet3D_fold1 - Epoch 11, Validation Dice: ET=0.2840, TC=0.3071, WT=0.4996
+2025-03-14 05:11:08,913 - INFO - UNet3D_fold1 - Epoch 11, Current LR: 0.002375
+2025-03-14 05:11:08,995 - INFO - Checkpoint saved at epoch 11 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:11:47,826 - INFO - UNet3D_fold1 - Epoch 12/16, Training Loss: 0.3678
+2025-03-14 05:13:53,407 - INFO - UNet3D_fold1 - Epoch 12, Validation Dice: ET=0.3200, TC=0.3181, WT=0.4571
+2025-03-14 05:13:53,408 - INFO - UNet3D_fold1 - Epoch 12, Current LR: 0.002500
+2025-03-14 05:13:53,492 - INFO - Checkpoint saved at epoch 12 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:14:31,971 - INFO - UNet3D_fold1 - Epoch 13/16, Training Loss: 0.3658
+2025-03-14 05:16:35,861 - INFO - UNet3D_fold1 - Epoch 13, Validation Dice: ET=0.3881, TC=0.4110, WT=0.5824
+2025-03-14 05:16:35,862 - INFO - UNet3D_fold1 - Epoch 13, Current LR: 0.002625
+2025-03-14 05:16:35,893 - INFO - New best model saved with WT Dice: 0.5824
+2025-03-14 05:16:35,971 - INFO - Checkpoint saved at epoch 13 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:17:15,013 - INFO - UNet3D_fold1 - Epoch 14/16, Training Loss: 0.3743
+2025-03-14 05:19:16,211 - INFO - UNet3D_fold1 - Epoch 14, Validation Dice: ET=0.4019, TC=0.4003, WT=0.5422
+2025-03-14 05:19:16,211 - INFO - UNet3D_fold1 - Epoch 14, Current LR: 0.002750
+2025-03-14 05:19:16,295 - INFO - Checkpoint saved at epoch 14 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:19:55,159 - INFO - UNet3D_fold1 - Epoch 15/16, Training Loss: 0.3659
+2025-03-14 05:22:03,676 - INFO - UNet3D_fold1 - Epoch 15, Validation Dice: ET=0.3202, TC=0.3674, WT=0.5535
+2025-03-14 05:22:03,676 - INFO - UNet3D_fold1 - Epoch 15, Current LR: 0.002875
+2025-03-14 05:22:03,756 - INFO - Checkpoint saved at epoch 15 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:22:41,917 - INFO - UNet3D_fold1 - Epoch 16/16, Training Loss: 0.3657
+2025-03-14 05:24:44,399 - INFO - UNet3D_fold1 - Epoch 16, Validation Dice: ET=0.3635, TC=0.4127, WT=0.5652
+2025-03-14 05:24:44,399 - INFO - UNet3D_fold1 - Epoch 16, Current LR: 0.003000
+2025-03-14 05:24:44,483 - INFO - Checkpoint saved at epoch 16 to output1/checkpoints/UNet3D_fold1_checkpoint.pth
+2025-03-14 05:24:44,605 - INFO - Loaded best weights for UNet3D_fold1 with WT Dice: 0.5824
+2025-03-14 05:25:14,390 - INFO - Best Validation WT Dice for UNet3D_fold1: 0.5824
+2025-03-14 05:25:17,617 - INFO - Prediction visualization saved to output1/prediction_fold1.png
+2025-03-14 05:25:17,618 - INFO - Fold 3/5
+2025-03-14 05:25:17,880 - INFO - No checkpoint found for UNet3D_fold2, starting from scratch.
+2025-03-14 05:25:57,440 - INFO - UNet3D_fold2 - Epoch 1/16, Training Loss: 0.7619
+2025-03-14 05:28:20,061 - INFO - UNet3D_fold2 - Epoch 1, Validation Dice: ET=0.0367, TC=0.0378, WT=0.1554
+2025-03-14 05:28:20,062 - INFO - UNet3D_fold2 - Epoch 1, Current LR: 0.001125
+2025-03-14 05:28:20,101 - INFO - New best model saved with WT Dice: 0.1554
+2025-03-14 05:28:20,171 - INFO - Checkpoint saved at epoch 1 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:28:59,986 - INFO - UNet3D_fold2 - Epoch 2/16, Training Loss: 0.6010
+2025-03-14 05:31:17,641 - INFO - UNet3D_fold2 - Epoch 2, Validation Dice: ET=0.1617, TC=0.0584, WT=0.1817
+2025-03-14 05:31:17,642 - INFO - UNet3D_fold2 - Epoch 2, Current LR: 0.001250
+2025-03-14 05:31:17,673 - INFO - New best model saved with WT Dice: 0.1817
+2025-03-14 05:31:17,751 - INFO - Checkpoint saved at epoch 2 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:31:56,566 - INFO - UNet3D_fold2 - Epoch 3/16, Training Loss: 0.5152
+2025-03-14 05:34:07,471 - INFO - UNet3D_fold2 - Epoch 3, Validation Dice: ET=0.2205, TC=0.2302, WT=0.3089
+2025-03-14 05:34:07,472 - INFO - UNet3D_fold2 - Epoch 3, Current LR: 0.001375
+2025-03-14 05:34:07,507 - INFO - New best model saved with WT Dice: 0.3089
+2025-03-14 05:34:07,581 - INFO - Checkpoint saved at epoch 3 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:34:47,455 - INFO - UNet3D_fold2 - Epoch 4/16, Training Loss: 0.4488
+2025-03-14 05:36:54,429 - INFO - UNet3D_fold2 - Epoch 4, Validation Dice: ET=0.3404, TC=0.3658, WT=0.4617
+2025-03-14 05:36:54,429 - INFO - UNet3D_fold2 - Epoch 4, Current LR: 0.001500
+2025-03-14 05:36:54,463 - INFO - New best model saved with WT Dice: 0.4617
+2025-03-14 05:36:54,541 - INFO - Checkpoint saved at epoch 4 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:37:33,253 - INFO - UNet3D_fold2 - Epoch 5/16, Training Loss: 0.4222
+2025-03-14 05:39:42,226 - INFO - UNet3D_fold2 - Epoch 5, Validation Dice: ET=0.2255, TC=0.2798, WT=0.4640
+2025-03-14 05:39:42,226 - INFO - UNet3D_fold2 - Epoch 5, Current LR: 0.001625
+2025-03-14 05:39:42,256 - INFO - New best model saved with WT Dice: 0.4640
+2025-03-14 05:39:42,334 - INFO - Checkpoint saved at epoch 5 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:40:20,712 - INFO - UNet3D_fold2 - Epoch 6/16, Training Loss: 0.4068
+2025-03-14 05:42:28,896 - INFO - UNet3D_fold2 - Epoch 6, Validation Dice: ET=0.3546, TC=0.3475, WT=0.4703
+2025-03-14 05:42:28,896 - INFO - UNet3D_fold2 - Epoch 6, Current LR: 0.001750
+2025-03-14 05:42:28,929 - INFO - New best model saved with WT Dice: 0.4703
+2025-03-14 05:42:29,006 - INFO - Checkpoint saved at epoch 6 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:43:09,509 - INFO - UNet3D_fold2 - Epoch 7/16, Training Loss: 0.3944
+2025-03-14 05:45:15,111 - INFO - UNet3D_fold2 - Epoch 7, Validation Dice: ET=0.3217, TC=0.3488, WT=0.5648
+2025-03-14 05:45:15,112 - INFO - UNet3D_fold2 - Epoch 7, Current LR: 0.001875
+2025-03-14 05:45:15,143 - INFO - New best model saved with WT Dice: 0.5648
+2025-03-14 05:45:15,220 - INFO - Checkpoint saved at epoch 7 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:45:54,966 - INFO - UNet3D_fold2 - Epoch 8/16, Training Loss: 0.3820
+2025-03-14 05:48:06,080 - INFO - UNet3D_fold2 - Epoch 8, Validation Dice: ET=0.3559, TC=0.3123, WT=0.5092
+2025-03-14 05:48:06,081 - INFO - UNet3D_fold2 - Epoch 8, Current LR: 0.002000
+2025-03-14 05:48:06,164 - INFO - Checkpoint saved at epoch 8 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:48:45,544 - INFO - UNet3D_fold2 - Epoch 9/16, Training Loss: 0.3721
+2025-03-14 05:50:48,781 - INFO - UNet3D_fold2 - Epoch 9, Validation Dice: ET=0.4329, TC=0.3631, WT=0.5594
+2025-03-14 05:50:48,781 - INFO - UNet3D_fold2 - Epoch 9, Current LR: 0.002125
+2025-03-14 05:50:48,866 - INFO - Checkpoint saved at epoch 9 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:51:28,458 - INFO - UNet3D_fold2 - Epoch 10/16, Training Loss: 0.3644
+2025-03-14 05:53:34,173 - INFO - UNet3D_fold2 - Epoch 10, Validation Dice: ET=0.4197, TC=0.4194, WT=0.5759
+2025-03-14 05:53:34,174 - INFO - UNet3D_fold2 - Epoch 10, Current LR: 0.002250
+2025-03-14 05:53:34,204 - INFO - New best model saved with WT Dice: 0.5759
+2025-03-14 05:53:34,285 - INFO - Checkpoint saved at epoch 10 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:54:13,709 - INFO - UNet3D_fold2 - Epoch 11/16, Training Loss: 0.3767
+2025-03-14 05:56:17,543 - INFO - UNet3D_fold2 - Epoch 11, Validation Dice: ET=0.3762, TC=0.3677, WT=0.5787
+2025-03-14 05:56:17,543 - INFO - UNet3D_fold2 - Epoch 11, Current LR: 0.002375
+2025-03-14 05:56:17,575 - INFO - New best model saved with WT Dice: 0.5787
+2025-03-14 05:56:17,653 - INFO - Checkpoint saved at epoch 11 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:56:57,195 - INFO - UNet3D_fold2 - Epoch 12/16, Training Loss: 0.3649
+2025-03-14 05:58:57,638 - INFO - UNet3D_fold2 - Epoch 12, Validation Dice: ET=0.4483, TC=0.4643, WT=0.5612
+2025-03-14 05:58:57,639 - INFO - UNet3D_fold2 - Epoch 12, Current LR: 0.002500
+2025-03-14 05:58:57,725 - INFO - Checkpoint saved at epoch 12 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 05:59:37,388 - INFO - UNet3D_fold2 - Epoch 13/16, Training Loss: 0.3715
+2025-03-14 06:01:40,777 - INFO - UNet3D_fold2 - Epoch 13, Validation Dice: ET=0.3899, TC=0.4232, WT=0.5504
+2025-03-14 06:01:40,777 - INFO - UNet3D_fold2 - Epoch 13, Current LR: 0.002625
+2025-03-14 06:01:40,865 - INFO - Checkpoint saved at epoch 13 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 06:02:20,471 - INFO - UNet3D_fold2 - Epoch 14/16, Training Loss: 0.3540
+2025-03-14 06:04:27,735 - INFO - UNet3D_fold2 - Epoch 14, Validation Dice: ET=0.4198, TC=0.4076, WT=0.5117
+2025-03-14 06:04:27,736 - INFO - UNet3D_fold2 - Epoch 14, Current LR: 0.002750
+2025-03-14 06:04:27,822 - INFO - Checkpoint saved at epoch 14 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 06:05:07,104 - INFO - UNet3D_fold2 - Epoch 15/16, Training Loss: 0.3566
+2025-03-14 06:07:06,541 - INFO - UNet3D_fold2 - Epoch 15, Validation Dice: ET=0.4759, TC=0.4806, WT=0.6094
+2025-03-14 06:07:06,541 - INFO - UNet3D_fold2 - Epoch 15, Current LR: 0.002875
+2025-03-14 06:07:06,742 - INFO - New best model saved with WT Dice: 0.6094
+2025-03-14 06:07:06,819 - INFO - Checkpoint saved at epoch 15 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 06:07:46,224 - INFO - UNet3D_fold2 - Epoch 16/16, Training Loss: 0.3565
+2025-03-14 06:09:54,820 - INFO - UNet3D_fold2 - Epoch 16, Validation Dice: ET=0.4335, TC=0.4397, WT=0.6081
+2025-03-14 06:09:54,821 - INFO - UNet3D_fold2 - Epoch 16, Current LR: 0.003000
+2025-03-14 06:09:54,908 - INFO - Checkpoint saved at epoch 16 to output1/checkpoints/UNet3D_fold2_checkpoint.pth
+2025-03-14 06:09:54,993 - INFO - Loaded best weights for UNet3D_fold2 with WT Dice: 0.6094
+2025-03-14 06:10:23,391 - INFO - Best Validation WT Dice for UNet3D_fold2: 0.6094
+2025-03-14 06:10:26,579 - INFO - Prediction visualization saved to output1/prediction_fold2.png
+2025-03-14 06:10:26,583 - INFO - Fold 4/5
+2025-03-14 06:10:26,636 - INFO - No checkpoint found for UNet3D_fold3, starting from scratch.
+2025-03-14 06:11:07,282 - INFO - UNet3D_fold3 - Epoch 1/16, Training Loss: 0.7731
+2025-03-14 06:13:24,692 - INFO - UNet3D_fold3 - Epoch 1, Validation Dice: ET=0.0077, TC=0.0050, WT=0.1967
+2025-03-14 06:13:24,693 - INFO - UNet3D_fold3 - Epoch 1, Current LR: 0.001125
+2025-03-14 06:13:24,850 - INFO - New best model saved with WT Dice: 0.1967
+2025-03-14 06:13:24,923 - INFO - Checkpoint saved at epoch 1 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:14:05,116 - INFO - UNet3D_fold3 - Epoch 2/16, Training Loss: 0.6386
+2025-03-14 06:16:17,855 - INFO - UNet3D_fold3 - Epoch 2, Validation Dice: ET=0.2029, TC=0.2339, WT=0.4737
+2025-03-14 06:16:17,856 - INFO - UNet3D_fold3 - Epoch 2, Current LR: 0.001250
+2025-03-14 06:16:17,887 - INFO - New best model saved with WT Dice: 0.4737
+2025-03-14 06:16:17,963 - INFO - Checkpoint saved at epoch 2 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:16:58,600 - INFO - UNet3D_fold3 - Epoch 3/16, Training Loss: 0.5181
+2025-03-14 06:19:13,311 - INFO - UNet3D_fold3 - Epoch 3, Validation Dice: ET=0.2468, TC=0.2789, WT=0.5094
+2025-03-14 06:19:13,312 - INFO - UNet3D_fold3 - Epoch 3, Current LR: 0.001375
+2025-03-14 06:19:13,342 - INFO - New best model saved with WT Dice: 0.5094
+2025-03-14 06:19:13,418 - INFO - Checkpoint saved at epoch 3 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:19:52,396 - INFO - UNet3D_fold3 - Epoch 4/16, Training Loss: 0.4695
+2025-03-14 06:21:53,456 - INFO - UNet3D_fold3 - Epoch 4, Validation Dice: ET=0.3705, TC=0.3710, WT=0.5070
+2025-03-14 06:21:53,457 - INFO - UNet3D_fold3 - Epoch 4, Current LR: 0.001500
+2025-03-14 06:21:53,557 - INFO - Checkpoint saved at epoch 4 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:22:33,129 - INFO - UNet3D_fold3 - Epoch 5/16, Training Loss: 0.4335
+2025-03-14 06:24:45,705 - INFO - UNet3D_fold3 - Epoch 5, Validation Dice: ET=0.3081, TC=0.3318, WT=0.5624
+2025-03-14 06:24:45,705 - INFO - UNet3D_fold3 - Epoch 5, Current LR: 0.001625
+2025-03-14 06:24:45,890 - INFO - New best model saved with WT Dice: 0.5624
+2025-03-14 06:24:45,968 - INFO - Checkpoint saved at epoch 5 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:25:26,748 - INFO - UNet3D_fold3 - Epoch 6/16, Training Loss: 0.4108
+2025-03-14 06:27:30,296 - INFO - UNet3D_fold3 - Epoch 6, Validation Dice: ET=0.3886, TC=0.3797, WT=0.5088
+2025-03-14 06:27:30,297 - INFO - UNet3D_fold3 - Epoch 6, Current LR: 0.001750
+2025-03-14 06:27:30,383 - INFO - Checkpoint saved at epoch 6 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:28:09,997 - INFO - UNet3D_fold3 - Epoch 7/16, Training Loss: 0.4090
+2025-03-14 06:30:14,284 - INFO - UNet3D_fold3 - Epoch 7, Validation Dice: ET=0.3968, TC=0.3617, WT=0.5185
+2025-03-14 06:30:14,285 - INFO - UNet3D_fold3 - Epoch 7, Current LR: 0.001875
+2025-03-14 06:30:14,412 - INFO - Checkpoint saved at epoch 7 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:30:54,691 - INFO - UNet3D_fold3 - Epoch 8/16, Training Loss: 0.3810
+2025-03-14 06:32:57,419 - INFO - UNet3D_fold3 - Epoch 8, Validation Dice: ET=0.4775, TC=0.4204, WT=0.5997
+2025-03-14 06:32:57,419 - INFO - UNet3D_fold3 - Epoch 8, Current LR: 0.002000
+2025-03-14 06:32:57,456 - INFO - New best model saved with WT Dice: 0.5997
+2025-03-14 06:32:57,534 - INFO - Checkpoint saved at epoch 8 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:33:37,812 - INFO - UNet3D_fold3 - Epoch 9/16, Training Loss: 0.3732
+2025-03-14 06:35:40,238 - INFO - UNet3D_fold3 - Epoch 9, Validation Dice: ET=0.3890, TC=0.3757, WT=0.5806
+2025-03-14 06:35:40,239 - INFO - UNet3D_fold3 - Epoch 9, Current LR: 0.002125
+2025-03-14 06:35:40,326 - INFO - Checkpoint saved at epoch 9 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:36:20,160 - INFO - UNet3D_fold3 - Epoch 10/16, Training Loss: 0.3718
+2025-03-14 06:38:22,911 - INFO - UNet3D_fold3 - Epoch 10, Validation Dice: ET=0.4433, TC=0.3903, WT=0.5647
+2025-03-14 06:38:22,912 - INFO - UNet3D_fold3 - Epoch 10, Current LR: 0.002250
+2025-03-14 06:38:22,994 - INFO - Checkpoint saved at epoch 10 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:39:03,503 - INFO - UNet3D_fold3 - Epoch 11/16, Training Loss: 0.3557
+2025-03-14 06:41:16,859 - INFO - UNet3D_fold3 - Epoch 11, Validation Dice: ET=0.2915, TC=0.2846, WT=0.4476
+2025-03-14 06:41:16,860 - INFO - UNet3D_fold3 - Epoch 11, Current LR: 0.002375
+2025-03-14 06:41:16,943 - INFO - Checkpoint saved at epoch 11 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:41:56,541 - INFO - UNet3D_fold3 - Epoch 12/16, Training Loss: 0.3576
+2025-03-14 06:44:00,508 - INFO - UNet3D_fold3 - Epoch 12, Validation Dice: ET=0.4131, TC=0.3926, WT=0.5718
+2025-03-14 06:44:00,509 - INFO - UNet3D_fold3 - Epoch 12, Current LR: 0.002500
+2025-03-14 06:44:00,597 - INFO - Checkpoint saved at epoch 12 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:44:40,330 - INFO - UNet3D_fold3 - Epoch 13/16, Training Loss: 0.3643
+2025-03-14 06:46:39,731 - INFO - UNet3D_fold3 - Epoch 13, Validation Dice: ET=0.4845, TC=0.4625, WT=0.6434
+2025-03-14 06:46:39,732 - INFO - UNet3D_fold3 - Epoch 13, Current LR: 0.002625
+2025-03-14 06:46:40,644 - INFO - New best model saved with WT Dice: 0.6434
+2025-03-14 06:46:40,836 - INFO - Checkpoint saved at epoch 13 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:47:24,947 - INFO - UNet3D_fold3 - Epoch 14/16, Training Loss: 0.3551
+2025-03-14 06:49:32,147 - INFO - UNet3D_fold3 - Epoch 14, Validation Dice: ET=0.4723, TC=0.3920, WT=0.6157
+2025-03-14 06:49:32,148 - INFO - UNet3D_fold3 - Epoch 14, Current LR: 0.002750
+2025-03-14 06:49:32,233 - INFO - Checkpoint saved at epoch 14 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:50:12,165 - INFO - UNet3D_fold3 - Epoch 15/16, Training Loss: 0.3556
+2025-03-14 06:52:22,921 - INFO - UNet3D_fold3 - Epoch 15, Validation Dice: ET=0.4279, TC=0.4612, WT=0.6151
+2025-03-14 06:52:22,921 - INFO - UNet3D_fold3 - Epoch 15, Current LR: 0.002875
+2025-03-14 06:52:23,029 - INFO - Checkpoint saved at epoch 15 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:53:02,690 - INFO - UNet3D_fold3 - Epoch 16/16, Training Loss: 0.3537
+2025-03-14 06:55:03,908 - INFO - UNet3D_fold3 - Epoch 16, Validation Dice: ET=0.4303, TC=0.4344, WT=0.5603
+2025-03-14 06:55:03,908 - INFO - UNet3D_fold3 - Epoch 16, Current LR: 0.003000
+2025-03-14 06:55:03,996 - INFO - Checkpoint saved at epoch 16 to output1/checkpoints/UNet3D_fold3_checkpoint.pth
+2025-03-14 06:55:04,017 - INFO - Loaded best weights for UNet3D_fold3 with WT Dice: 0.6434
+2025-03-14 06:55:35,490 - INFO - Best Validation WT Dice for UNet3D_fold3: 0.6434
+2025-03-14 06:55:37,710 - INFO - Prediction visualization saved to output1/prediction_fold3.png
+2025-03-14 06:55:37,714 - INFO - Fold 5/5
+2025-03-14 06:55:37,793 - INFO - No checkpoint found for UNet3D_fold4, starting from scratch.
+2025-03-14 06:56:23,829 - INFO - UNet3D_fold4 - Epoch 1/16, Training Loss: 0.7896
+2025-03-14 06:58:46,142 - INFO - UNet3D_fold4 - Epoch 1, Validation Dice: ET=0.0210, TC=0.0245, WT=0.1322
+2025-03-14 06:58:46,143 - INFO - UNet3D_fold4 - Epoch 1, Current LR: 0.001125
+2025-03-14 06:58:46,187 - INFO - New best model saved with WT Dice: 0.1322
+2025-03-14 06:58:46,254 - INFO - Checkpoint saved at epoch 1 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 06:59:27,966 - INFO - UNet3D_fold4 - Epoch 2/16, Training Loss: 0.6111
+2025-03-14 07:01:37,476 - INFO - UNet3D_fold4 - Epoch 2, Validation Dice: ET=0.2645, TC=0.3075, WT=0.5093
+2025-03-14 07:01:37,476 - INFO - UNet3D_fold4 - Epoch 2, Current LR: 0.001250
+2025-03-14 07:01:37,509 - INFO - New best model saved with WT Dice: 0.5093
+2025-03-14 07:01:37,586 - INFO - Checkpoint saved at epoch 2 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:02:18,713 - INFO - UNet3D_fold4 - Epoch 3/16, Training Loss: 0.4922
+2025-03-14 07:04:28,879 - INFO - UNet3D_fold4 - Epoch 3, Validation Dice: ET=0.3304, TC=0.3211, WT=0.4545
+2025-03-14 07:04:28,880 - INFO - UNet3D_fold4 - Epoch 3, Current LR: 0.001375
+2025-03-14 07:04:28,965 - INFO - Checkpoint saved at epoch 3 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:05:10,814 - INFO - UNet3D_fold4 - Epoch 4/16, Training Loss: 0.4423
+2025-03-14 07:07:18,377 - INFO - UNet3D_fold4 - Epoch 4, Validation Dice: ET=0.3026, TC=0.3283, WT=0.4210
+2025-03-14 07:07:18,377 - INFO - UNet3D_fold4 - Epoch 4, Current LR: 0.001500
+2025-03-14 07:07:18,462 - INFO - Checkpoint saved at epoch 4 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:07:59,321 - INFO - UNet3D_fold4 - Epoch 5/16, Training Loss: 0.4310
+2025-03-14 07:10:18,021 - INFO - UNet3D_fold4 - Epoch 5, Validation Dice: ET=0.4360, TC=0.4356, WT=0.5820
+2025-03-14 07:10:18,021 - INFO - UNet3D_fold4 - Epoch 5, Current LR: 0.001625
+2025-03-14 07:10:18,065 - INFO - New best model saved with WT Dice: 0.5820
+2025-03-14 07:10:18,146 - INFO - Checkpoint saved at epoch 5 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:11:00,463 - INFO - UNet3D_fold4 - Epoch 6/16, Training Loss: 0.4147
+2025-03-14 07:12:58,987 - INFO - UNet3D_fold4 - Epoch 6, Validation Dice: ET=0.4341, TC=0.4449, WT=0.6014
+2025-03-14 07:12:58,987 - INFO - UNet3D_fold4 - Epoch 6, Current LR: 0.001750
+2025-03-14 07:12:59,020 - INFO - New best model saved with WT Dice: 0.6014
+2025-03-14 07:12:59,100 - INFO - Checkpoint saved at epoch 6 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:13:41,007 - INFO - UNet3D_fold4 - Epoch 7/16, Training Loss: 0.3983
+2025-03-14 07:15:45,234 - INFO - UNet3D_fold4 - Epoch 7, Validation Dice: ET=0.4664, TC=0.4520, WT=0.5450
+2025-03-14 07:15:45,235 - INFO - UNet3D_fold4 - Epoch 7, Current LR: 0.001875
+2025-03-14 07:15:45,320 - INFO - Checkpoint saved at epoch 7 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:16:25,838 - INFO - UNet3D_fold4 - Epoch 8/16, Training Loss: 0.3867
+2025-03-14 07:18:36,700 - INFO - UNet3D_fold4 - Epoch 8, Validation Dice: ET=0.4206, TC=0.3865, WT=0.4880
+2025-03-14 07:18:36,700 - INFO - UNet3D_fold4 - Epoch 8, Current LR: 0.002000
+2025-03-14 07:18:36,786 - INFO - Checkpoint saved at epoch 8 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:19:17,589 - INFO - UNet3D_fold4 - Epoch 9/16, Training Loss: 0.3927
+2025-03-14 07:21:19,708 - INFO - UNet3D_fold4 - Epoch 9, Validation Dice: ET=0.4752, TC=0.3961, WT=0.6041
+2025-03-14 07:21:19,709 - INFO - UNet3D_fold4 - Epoch 9, Current LR: 0.002125
+2025-03-14 07:21:19,744 - INFO - New best model saved with WT Dice: 0.6041
+2025-03-14 07:21:19,823 - INFO - Checkpoint saved at epoch 9 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:22:02,067 - INFO - UNet3D_fold4 - Epoch 10/16, Training Loss: 0.3819
+2025-03-14 07:24:06,749 - INFO - UNet3D_fold4 - Epoch 10, Validation Dice: ET=0.5182, TC=0.4613, WT=0.6420
+2025-03-14 07:24:06,749 - INFO - UNet3D_fold4 - Epoch 10, Current LR: 0.002250
+2025-03-14 07:24:06,830 - INFO - New best model saved with WT Dice: 0.6420
+2025-03-14 07:24:06,907 - INFO - Checkpoint saved at epoch 10 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:24:49,271 - INFO - UNet3D_fold4 - Epoch 11/16, Training Loss: 0.3766
+2025-03-14 07:26:56,274 - INFO - UNet3D_fold4 - Epoch 11, Validation Dice: ET=0.3600, TC=0.4057, WT=0.5008
+2025-03-14 07:26:56,275 - INFO - UNet3D_fold4 - Epoch 11, Current LR: 0.002375
+2025-03-14 07:26:56,360 - INFO - Checkpoint saved at epoch 11 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:27:36,797 - INFO - UNet3D_fold4 - Epoch 12/16, Training Loss: 0.3658
+2025-03-14 07:29:42,093 - INFO - UNet3D_fold4 - Epoch 12, Validation Dice: ET=0.4485, TC=0.4192, WT=0.5798
+2025-03-14 07:29:42,093 - INFO - UNet3D_fold4 - Epoch 12, Current LR: 0.002500
+2025-03-14 07:29:42,178 - INFO - Checkpoint saved at epoch 12 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:30:24,150 - INFO - UNet3D_fold4 - Epoch 13/16, Training Loss: 0.3741
+2025-03-14 07:32:28,132 - INFO - UNet3D_fold4 - Epoch 13, Validation Dice: ET=0.5002, TC=0.4794, WT=0.6252
+2025-03-14 07:32:28,132 - INFO - UNet3D_fold4 - Epoch 13, Current LR: 0.002625
+2025-03-14 07:32:28,218 - INFO - Checkpoint saved at epoch 13 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:33:09,318 - INFO - UNet3D_fold4 - Epoch 14/16, Training Loss: 0.3750
+2025-03-14 07:35:19,561 - INFO - UNet3D_fold4 - Epoch 14, Validation Dice: ET=0.4356, TC=0.4229, WT=0.6033
+2025-03-14 07:35:19,561 - INFO - UNet3D_fold4 - Epoch 14, Current LR: 0.002750
+2025-03-14 07:35:19,646 - INFO - Checkpoint saved at epoch 14 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:36:00,669 - INFO - UNet3D_fold4 - Epoch 15/16, Training Loss: 0.3719
+2025-03-14 07:38:06,472 - INFO - UNet3D_fold4 - Epoch 15, Validation Dice: ET=0.4677, TC=0.4296, WT=0.6238
+2025-03-14 07:38:06,473 - INFO - UNet3D_fold4 - Epoch 15, Current LR: 0.002875
+2025-03-14 07:38:06,557 - INFO - Checkpoint saved at epoch 15 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:38:49,202 - INFO - UNet3D_fold4 - Epoch 16/16, Training Loss: 0.3712
+2025-03-14 07:40:57,846 - INFO - UNet3D_fold4 - Epoch 16, Validation Dice: ET=0.4456, TC=0.4224, WT=0.6048
+2025-03-14 07:40:57,847 - INFO - UNet3D_fold4 - Epoch 16, Current LR: 0.003000
+2025-03-14 07:40:57,932 - INFO - Checkpoint saved at epoch 16 to output1/checkpoints/UNet3D_fold4_checkpoint.pth
+2025-03-14 07:40:57,954 - INFO - Loaded best weights for UNet3D_fold4 with WT Dice: 0.6420
+2025-03-14 07:41:27,376 - INFO - Best Validation WT Dice for UNet3D_fold4: 0.6420
+2025-03-14 07:41:30,939 - INFO - Prediction visualization saved to output1/prediction_fold4.png
+2025-03-14 07:41:31,944 - INFO - Metrics plots saved to output1/dice_UNet3D.png and output1/hd95_UNet3D.png
+2025-03-14 07:41:32,063 - INFO - Results table saved to results_table.csv
+2025-03-14 07:41:32,064 - INFO - Best WT Dice Scores per Fold: {'fold_0': 0.6133602289194914, 'fold_1': 0.5823852994776878, 'fold_2': 0.6094444914116073, 'fold_3': 0.6434289883706987, 'fold_4': 0.6419727547715107}
+2025-03-14 07:41:32,064 - INFO - Average Best WT Dice Score across Folds: 0.6181
+2025-03-14 07:41:32,064 - INFO - Training and evaluation completed! TensorBoard logs saved in tensorboard/ directory.
