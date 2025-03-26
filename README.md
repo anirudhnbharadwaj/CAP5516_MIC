@@ -1,4 +1,4 @@
-# CAP5516_MedicalImageComputing
+# CAP5516 - Medical Image Computing
 
 Welcome to the CAP5516_MedicalImageComputing repository! This repository contains my assignments and projects from the Medical Image Computing (MIC) course at the University of Central Florida (UCF).
 
